@@ -1,334 +1,437 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-    <class>MainWindow</class>
-    <widget class="QMainWindow" name="MainWindow">
-        <property name="windowModality">
-            <enum>Qt::ApplicationModal</enum>
-        </property>
-        <property name="geometry">
-            <rect>
-                <x>0</x>
-                <y>0</y>
-                <width>338</width>
-                <height>244</height>
-            </rect>
-        </property>
-        <property name="windowTitle">
-            <string>MainWindow</string>
-        </property>
-        <widget class="QWidget" name="centralwidget">
-            <widget class="QWidget" name="layoutWidget">
-                <property name="geometry">
-                    <rect>
-                        <x>10</x>
-                        <y>10</y>
-                        <width>317</width>
-                        <height>202</height>
-                    </rect>
-                </property>
-                <layout class="QGridLayout" name="gridLayout">
-                    <item row="3" column="2">
-                        <widget class="Line" name="line_8">
-                            <property name="orientation">
-                                <enum>Qt::Horizontal</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="0" column="4">
-                        <widget class="QPushButton" name="btnStart">
-                            <property name="minimumSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="baseSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="text">
-                                <string>START</string>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="0" column="0">
-                        <widget class="QLabel" name="label">
-                            <property name="minimumSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="baseSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="text">
-                                <string>Игрок 1</string>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="6" column="3">
-                        <widget class="Line" name="line_6">
-                            <property name="orientation">
-                                <enum>Qt::Vertical</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="3" column="4">
-                        <widget class="Line" name="line_9">
-                            <property name="orientation">
-                                <enum>Qt::Horizontal</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="2" column="0">
-                        <widget class="QPushButton" name="b00">
-                            <property name="baseSize">
-                                <size>
-                                    <width>300</width>
-                                    <height>300</height>
-                                </size>
-                            </property>
-                            <property name="text">
-                                <string/>
-                            </property>
-                            <property name="autoRepeatInterval">
-                                <number>300</number>
-                            </property>
-                            <property name="flat">
-                                <bool>true</bool>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="1" column="0">
-                        <widget class="QLabel" name="label_2">
-                            <property name="minimumSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="baseSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="text">
-                                <string>Игрок 2</string>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="4" column="4">
-                        <widget class="QPushButton" name="b12">
-                            <property name="text">
-                                <string/>
-                            </property>
-                            <property name="flat">
-                                <bool>true</bool>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="4" column="2">
-                        <widget class="QPushButton" name="b11">
-                            <property name="text">
-                                <string/>
-                            </property>
-                            <property name="flat">
-                                <bool>true</bool>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="6" column="4">
-                        <widget class="QPushButton" name="b22">
-                            <property name="text">
-                                <string/>
-                            </property>
-                            <property name="flat">
-                                <bool>true</bool>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="4" column="0">
-                        <widget class="QPushButton" name="b10">
-                            <property name="text">
-                                <string/>
-                            </property>
-                            <property name="flat">
-                                <bool>true</bool>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="2" column="3">
-                        <widget class="Line" name="line_4">
-                            <property name="orientation">
-                                <enum>Qt::Vertical</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="6" column="0">
-                        <widget class="QPushButton" name="b20">
-                            <property name="text">
-                                <string/>
-                            </property>
-                            <property name="flat">
-                                <bool>true</bool>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="1" column="4">
-                        <widget class="QPushButton" name="btnQuit">
-                            <property name="minimumSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="baseSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="text">
-                                <string>QUIT</string>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="2" column="1">
-                        <widget class="Line" name="line">
-                            <property name="orientation">
-                                <enum>Qt::Vertical</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="6" column="2">
-                        <widget class="QPushButton" name="b21">
-                            <property name="text">
-                                <string/>
-                            </property>
-                            <property name="flat">
-                                <bool>true</bool>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="0" column="2">
-                        <widget class="QLCDNumber" name="cntGamer1">
-                            <property name="minimumSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="baseSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="frameShape">
-                                <enum>QFrame::StyledPanel</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="6" column="1">
-                        <widget class="Line" name="line_3">
-                            <property name="orientation">
-                                <enum>Qt::Vertical</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="1" column="2">
-                        <widget class="QLCDNumber" name="cntGamer2">
-                            <property name="minimumSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="baseSize">
-                                <size>
-                                    <width>95</width>
-                                    <height>0</height>
-                                </size>
-                            </property>
-                            <property name="frameShape">
-                                <enum>QFrame::StyledPanel</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="3" column="0">
-                        <widget class="Line" name="line_7">
-                            <property name="orientation">
-                                <enum>Qt::Horizontal</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="4" column="1">
-                        <widget class="Line" name="line_2">
-                            <property name="orientation">
-                                <enum>Qt::Vertical</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="4" column="3">
-                        <widget class="Line" name="line_5">
-                            <property name="orientation">
-                                <enum>Qt::Vertical</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="2" column="4">
-                        <widget class="QPushButton" name="b02">
-                            <property name="text">
-                                <string/>
-                            </property>
-                            <property name="flat">
-                                <bool>true</bool>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="2" column="2">
-                        <widget class="QPushButton" name="b01">
-                            <property name="text">
-                                <string/>
-                            </property>
-                            <property name="flat">
-                                <bool>true</bool>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="5" column="0">
-                        <widget class="Line" name="line_10">
-                            <property name="orientation">
-                                <enum>Qt::Horizontal</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="5" column="2">
-                        <widget class="Line" name="line_11">
-                            <property name="orientation">
-                                <enum>Qt::Horizontal</enum>
-                            </property>
-                        </widget>
-                    </item>
-                    <item row="5" column="4">
-                        <widget class="Line" name="line_12">
-                            <property name="orientation">
-                                <enum>Qt::Horizontal</enum>
-                            </property>
-                        </widget>
-                    </item>
-                </layout>
-            </widget>
-        </widget>
-        <widget class="QStatusBar" name="statusbar"/>
-    </widget>
-    <resources/>
-    <connections/>
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>338</width>
+    <height>243</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>317</width>
+      <height>202</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="0">
+      <widget class="QPushButton" name="b00">
+       <property name="baseSize">
+        <size>
+         <width>300</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatInterval">
+        <number>300</number>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QPushButton" name="b02">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="b21">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="minimumSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Игрок 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="btnStart">
+       <property name="minimumSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>START</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="Line" name="line_9">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="b01">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="Line" name="line_5">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QPushButton" name="b12">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLCDNumber" name="cntGamer2">
+       <property name="minimumSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QPushButton" name="btnQuit">
+       <property name="minimumSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>QUIT</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="4">
+      <widget class="QPushButton" name="b22">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="b20">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="Line" name="line_8">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="Line" name="line_4">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="Line" name="line_11">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="Line" name="line_12">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Игрок 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="Line" name="line_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="Line" name="line_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="Line" name="line_7">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLCDNumber" name="cntGamer1">
+       <property name="minimumSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>95</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="b10">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="b11">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3">
+      <widget class="Line" name="line_6">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="Line" name="line_10">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="5">
+      <widget class="QLabel" name="lbInfo">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>***</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::PlainText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
 </ui>
